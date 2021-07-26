@@ -15,3 +15,11 @@ high_and_low("1 9 3 4 -5") # return "9 -5"
 ```
 ---
 
+### Solution
+
+```python
+def high_and_low(numbers):
+    numbers = list(map(int, numbers.split()))
+    return " ".join([str(max(numbers)),str(min(numbers))])
+```
+---
