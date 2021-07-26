@@ -24,3 +24,11 @@ row_sum_odd_numbers(2); # 3 + 5 = 8
 ```
 ---
 
+### Solutions
+
+```python
+def row_sum_odd_numbers(n):
+    row_sum = n ** 3
+    return row_sum
+```
+
