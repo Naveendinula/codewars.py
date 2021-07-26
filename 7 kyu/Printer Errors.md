@@ -25,7 +25,7 @@ error_printer(s) => "8/22"
 ```
 ---
 
-#### Solution
+### Solution
 
 ```python
 def printer_error(s):
