@@ -2,7 +2,7 @@
 
 
 ---
-## Simple Pig Latin
+## Growth of a population
 In a small town the population is `p0 = 1000` at the beginning of a year. The population regularly increases by `2 percent` per year and moreover `50` new inhabitants per year come to live in the town. How many years does the town need to see its population greater or equal to `p = 1200` inhabitants?
 
 ---
@@ -41,3 +41,15 @@ Don't forget to convert the percent parameter as a percentage in the body of you
 
 ---
 
+### Solution
+
+```python
+def nb_year(p0, percent, aug, p):
+    numberofyears = 0
+    pn = (p0)
+    while(pn < p):
+        pn = int(pn) + ((percent/100) * pn) + aug
+        numberofyears += 1
+    return numberofyears
+```
+---
