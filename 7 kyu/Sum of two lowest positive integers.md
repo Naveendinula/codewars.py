@@ -14,3 +14,13 @@ For example, when an array is passed like `[19, 5, 42, 2, 77]`, the output shoul
 
 ---
 
+### Solution
+
+```python
+def sum_two_smallest_numbers(numbers):
+    a = min(numbers)
+    numbers.remove(a)
+    b = min(numbers)
+    return a + b
+```
+---
