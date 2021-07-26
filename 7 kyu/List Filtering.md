@@ -14,3 +14,13 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 ```
 ---
 
+### Solution
+
+```python
+def filter_list(l):
+    new_list = []
+    for item in l:
+        if type(item) == int:
+            new_list.append(item)
+    return new_list
+```
