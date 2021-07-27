@@ -19,6 +19,8 @@ Write a function that will return the count of **distinct case-insensitive** alp
 "ABBA" -> 2 # 'A' and 'B' each occur twice
 ```
 
+---
+
 ### Solutions
 
 ```python
